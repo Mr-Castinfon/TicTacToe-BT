@@ -6,54 +6,9 @@
     android:padding="16dp"
     android:background="#FFFFFF">
 
-    <!-- List of Available Bluetooth Devices -->
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Available Devices:"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:paddingBottom="8dp" />
-
-    <ListView
-        android:id="@+id/device_list"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="#EEEEEE"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp" />
-
-    <!-- Connect Button -->
-    <Button
-        android:id="@+id/connect_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Connect"
-        android:textSize="16sp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="#007BFF"
-        android:textColor="#FFFFFF" />
-
-    <!-- Input Field for Message -->
-    <EditText
-        android:id="@+id/message_input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter message..."
-        android:padding="10dp"
-        android:textSize="16sp"
-        android:background="#EEEEEE"
-        android:layout_marginTop="10dp"/>
-
-    <!-- Send Button -->
-    <Button
-        android:id="@+id/send_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Send Message"
-        android:textSize="16sp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="#28A745"
-        android:textColor="#FFFFFF" />
-
+        android:layout_height="593dp"
+        android:text="" />
 </LinearLayout>
